@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start the arcus process
-cd /arcus/scripts && ./arcus.sh quicksetup conf/local.sample.json
+cd /arcus/scripts && ./arcus.sh quicksetup conf/local.test.json
 status=$?
 if [ $status -ne 0 ]; then
   echo "Failed to start my_first_process: $status"
