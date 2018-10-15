@@ -1,7 +1,7 @@
 # Arcus Docker Images
 
 Arcus Docker for [Arcus Cache Cloud](https://github.com/naver/arcus)  base on [yous/arcus](https://hub.docker.com/r/yous/arcus/).
-Arcus is set in entrypoint. When you start the docker, arcus begins as well.
+The entrypoint launch Arcus daemon. So you start arcus-dockerfile, arcus begins as well.
 
 ## Installation
 
